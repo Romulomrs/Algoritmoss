@@ -1,0 +1,26 @@
+#titulo{
+    color:green;
+    text-align: center;
+}
+p#descricao{
+    color:aqua;
+}
+p.promocao{
+    background-color: blueviolet;
+    text-align:center;
+}
+p.final-pagina#rodape{
+color:bisque;
+background-color: gray;
+text-align: center;}
+
+.curso, .novo-curso{
+    background-color: brown;
+}
+.novo-curso{
+    color:rebeccapurple
+}
+.curso, .novo-curso, #contato{
+    padding: 12px;
+    border: 1px solid lightgray;
+}
