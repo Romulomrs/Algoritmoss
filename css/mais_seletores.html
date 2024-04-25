@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mais seletores</title>
+    <style>
+      article p {
+        padding: 12px;
+        background-color: lightgray;
+      }
+      #principal p.promocao {
+        padding: 12px;
+        background-color: aliceblue;
+      }
+      body #principal article section p.coordenadores {
+        text-align: center;
+      }
+      article p {
+        border: 1px solid black;
+      }
+      main > article section > p.coordenadores {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="principal">
+      <h1 id="titulo">Portal de cursos</h1>
+
+      <p id="descricao">Temos cursos de diversas áreas.</p>
+
+      <p class="nova promocao">
+        Venha conversar conosco e conhecer nossas ofertas de
+        <strong>bolsas de estudos.</strong>
+      </p>
+
+      <p>Cursos:</p>
+      <article>
+        <p class="novo-curso">Ciência da Computação</p>
+        <p class="curso">Análise e Desenvolvimento de Sistemas</p>
+        <p class="curso">Sistemas de Informação</p>
+        <section>
+          <p class="coordenadores">
+            Saiba que nossos coordenadores estão à sua disposição!
+          </p>
+        </section>
+      </article>
+      <p id="contato" class="final-pagina">Entre em contato: 11223344</p>
+      <p id="rodape" class="final-pagina">
+        &copy; Todos os direitos reservados
+      </p>
+    </main>
+  </body>
+</html>
