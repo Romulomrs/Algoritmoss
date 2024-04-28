@@ -1,0 +1,30 @@
+.primeira, #segunda{
+    background-color: #CCC;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 0px;
+}
+.terceira, .quarta{
+    border: 1px solid green;
+}
+ .terceira{
+    margin: 20px 50px;
+}
+ .quarta {
+     margin: 10px 50px 100px 200px;
+}
+.quinta{
+    margin-top: -50px;
+    border: 1px solid yellow;
+    margin: 20px auto;
+    width: 300px;
+}
+body{
+    border: 1px solid blue;
+    margin: 0px;
+}
+html{
+     border: 1px solid red;
+     
+}
