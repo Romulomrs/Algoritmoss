@@ -1,0 +1,25 @@
+.body{
+    margin: 0px;
+}
+.caixa1, .caixa2{
+    width: 300px;
+    text-align: justify;
+    background-color: #CCC;
+    border: 1px solid black;
+}
+.caixa1{
+    border:5px solid black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.caixa2{
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.rodape{
+    background-color: aliceblue;
+    padding: 12px;
+    border: 1px solid #EEE;
+    text-align: center;
+}
