@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.center{
+    flex-wrap:wrap;
+    display: inline;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    border: solid 1px black;
+}
