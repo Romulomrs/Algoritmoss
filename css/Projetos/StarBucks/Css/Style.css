@@ -34,7 +34,12 @@ header{
     color:black;
     text-decoration: none;
     font-weight: bold;
-    margin-right:  15px;
+    margin-right: 5%;
+    font-size:150% ;
+} 
+
+.menu .ultimo{
+    margin-right: 25px;
 }
 section.sobre{
     height: calc(100%-200px);
@@ -44,15 +49,22 @@ section.sobre{
     position: absolute;
     top: 200px;
     bottom: -900px;
-    right: -900px;
+    right: -800px;
     width:1600px;
-    height: 1800px;
+    height: 1600px;
     border-radius: 50%;
     background-color: #007042;
 }
-.extras img{
+.extras .cafeP{
     position: absolute;
-    width: 600px;
-    margin-left: 100px;
-    margin-top: -10px;
+    width: 700px;
+    margin-left:-80px;
+    margin-top: -150px;
+    transform: scaleX(-1);
+}
+.extras .twitterL{
+    width: 50px;
+    position: absolute;
+    margin-left: 725px;
+    margin-top: 200px;
 }
