@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html, body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100%;
+}
 .center{
     display: flex;
     flex-wrap:wrap;
@@ -14,6 +19,7 @@
 }
 header{
     padding: 20px 0 0 30px; 
+    height: 200px;
  
 }
 .logo{
@@ -29,4 +35,24 @@ header{
     text-decoration: none;
     font-weight: bold;
     margin-right:  15px;
+}
+section.sobre{
+    height: calc(100%-200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    top: 200px;
+    bottom: -900px;
+    right: -900px;
+    width:1600px;
+    height: 1800px;
+    border-radius: 50%;
+    background-color: #007042;
+}
+.extras img{
+    position: absolute;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: -10px;
 }
