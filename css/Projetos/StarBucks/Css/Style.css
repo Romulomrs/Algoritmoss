@@ -18,12 +18,16 @@ html, body{
     
 }
 header{
-    padding: 20px 0 0 30px; 
+    padding: 30px 0 0 30px; 
     height: 200px;
- 
+
 }
+
+
 .logo{
-    width: 50%;
+    width: 45%;
+    margin-left: 5%;
+
 }
 .menu{
     width: 50%;
@@ -38,7 +42,7 @@ header{
     font-size:150% ;
 } 
 
-.menu .ultimo{
+nav .ultimo{
     margin-right:5px;
 }
 section.sobre{
@@ -78,6 +82,17 @@ section.sobre{
     width: 40px;
     position: absolute;
     margin-left: 730px;
-    margin-top: 300px;
-   
+    margin-top: 300px;  
+}
+article.Slogan{
+    font-size: 75px;
+    margin-top: 350px;
+    text-align: left;
+    margin-left: -90%; 
+    
+}
+p .bold{
+    font-weight: bold;
+    
+
 }
