@@ -34,12 +34,12 @@ header{
     color:black;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 5%;
+    margin-right: 3%;
     font-size:150% ;
 } 
 
 .menu .ultimo{
-    margin-right: 25px;
+    margin-right:5px;
 }
 section.sobre{
     height: calc(100%-200px);
@@ -62,9 +62,22 @@ section.sobre{
     margin-top: -150px;
     transform: scaleX(-1);
 }
-.extras .twitterL{
+ .InstagramL{
     width: 50px;
     position: absolute;
     margin-left: 725px;
     margin-top: 200px;
+}
+.FacebookL{
+    width: 40px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 255px;
+}
+.twitterL{
+    width: 40px;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 300px;
+   
 }
