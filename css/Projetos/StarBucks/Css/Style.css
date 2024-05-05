@@ -26,12 +26,12 @@ header{
 
 
 .logo{
-    width: 45%;
-    margin-left: 5%;
+    width: 36%;
+    margin-left: 10%;
 
 }
 .menu{
-    width: 50%;
+    width: 40%;
     text-align: right;
     padding-top: 30px;
 }
@@ -90,7 +90,7 @@ article.Slogan{
     text-align: left;
     margin-left: -90%;  
 }
-p .bold{
+h1 .bold{
     font-weight: bold;
     color:#007042;
     font-size: 115%;
@@ -98,15 +98,26 @@ p .bold{
     font-weight: 700;
     font-style: normal;
   }
-p.titulo{
+h1.titulo{
     font-family: "Barlow", sans-serif;
-    font-size: 75px;
+    font-size: 100px;
     font-weight: bold;
 }
 p.Descricao{
     font-size: 200%;
-    width: 35%;
+    width: 50%;
 }
-p .espacamento{
+h1 .espacamento{
     word-spacing: 10px ;
+}
+.botao{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    background-color:#007042 ;
+    border: 0;
+    font-size:125% ;
 }
