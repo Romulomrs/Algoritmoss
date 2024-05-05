@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -85,14 +86,27 @@ section.sobre{
     margin-top: 300px;  
 }
 article.Slogan{
-    font-size: 75px;
-    margin-top: 350px;
+    margin-top: 300px;
     text-align: left;
-    margin-left: -90%; 
-    
+    margin-left: -90%;  
 }
 p .bold{
     font-weight: bold;
-    
-
+    color:#007042;
+    font-size: 115%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+p.titulo{
+    font-family: "Barlow", sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+p.Descricao{
+    font-size: 200%;
+    width: 35%;
+}
+p .espacamento{
+    word-spacing: 10px ;
 }
