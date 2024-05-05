@@ -121,3 +121,19 @@ h1 .espacamento{
     border: 0;
     font-size:125% ;
 }
+.extras .cafemini1, .cafemini2, .cafemini3{
+    display: absolute;
+    width: 100px;
+    margin-top: 600px;
+
+    
+}
+.extras .cafemini3{
+    margin-left:-400px;
+}
+.extras .cafemini2{
+    margin-left: -350px;
+}
+.extras .cafemini1{
+    margin-left: -400px;
+}
