@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h2>Dados do paciente</h2>
+  <form>
+    <div class="form-row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="idade" class="form-label">Idade:</label>
+          <input type="number" class="form-control" id="number" placeholder="Digite sua idade" required>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+            <label for="Temperatura" class="form-label">Temperatura &deg;:</label>
+            <input type="number" class="form-control" id="temp" placeholder="digite sua temperatura" required>
+        </div>
+    </div>
+            <div class="col-md-4">
+            
+       
+                <div class="form-group">
+                    <label for="Pressão" class="form-label">Pressão:</label>
+                    <input type="number" class="form-control" id="number" placeholder="Digite sua pressão" required>
+               
+            </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="mensagem" class="form-label">Descreva os Sintomas </label>
+      <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
