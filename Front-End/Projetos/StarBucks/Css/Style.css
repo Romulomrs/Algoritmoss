@@ -31,9 +31,10 @@ header{
 
 }
 .menu{
-    width: 40%;
+    width: 50%;
     text-align: right;
-    padding-top: 30px;
+    padding-top: 20px;
+    font-size:10px;
 }
 .menu a{
     color:black;
