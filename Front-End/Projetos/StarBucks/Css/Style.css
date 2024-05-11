@@ -87,9 +87,10 @@ section.sobre{
     margin-top: 300px;  
 }
 article.Slogan{
-    margin-top: 300px;
+    
     text-align: left;
-    margin-left: -90%;  
+    margin-left: -73%;
+    font-size: 8px;  
 }
 h1 .bold{
     font-weight: bold;
@@ -99,10 +100,15 @@ h1 .bold{
     font-weight: 700;
     font-style: normal;
   }
-h1.titulo{
+section.titulo{
     font-family: "Barlow", sans-serif;
-    font-size: 100px;
+    width: 90%;
+    text-align: left;
+    font-size: 40px;
     font-weight: bold;
+    margin-top: 150px;
+    margin-left:-73% ;
+    border: 1px solid black;
 }
 p.Descricao{
     font-size: 200%;
