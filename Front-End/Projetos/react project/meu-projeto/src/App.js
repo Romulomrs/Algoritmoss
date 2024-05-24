@@ -1,4 +1,4 @@
-
+import List from './components/List';
 import './App.css';
 import Frase from './components/Frase';
 import HelloWorld from './components/HelloWorld';
@@ -14,11 +14,12 @@ function App() {
 <SayMyName nome="matheus"/>
 <SayMyName nome="João"/>
 <SayMyName nome = {name}/>
-<Pessoa 
+<Pessoa
 nome= "Rodrigo"
 idade="28"
 profissao="Programador"
 foto="https://via.placeholder.com/150"/>
+  <List/>
     </div>
 
   )
