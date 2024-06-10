@@ -1,7 +1,7 @@
 import Button from './Eventos/button'
 function Evento (){
     function meuEvento(){
-        console.log(`Opa, fui ativado ${numero}`)
+        console.log('Ativando primeiro evento')
     }
     function SegundoEvento(){
         console.log('Ativando segundo evento')
@@ -10,7 +10,7 @@ function Evento (){
             <>
             <p>Clique para disparar um evento</p>
             <Button event={meuEvento}text= "primeiro evento"/>
-            <Button event={SegundoEvento}text= "primeiro evento"/>
+            <Button event={SegundoEvento}text= "Segundo evento"/>
             </>
 
     )

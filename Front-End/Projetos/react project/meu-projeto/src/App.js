@@ -1,15 +1,11 @@
-import Forms from "./components/Forms";
-
-
+import Condicional from "./components/Condicional";
 
 function App() {
-
   return (
- 
-<div>
-
-<Forms/>
-</div>
+    <div>
+      <h1>Renderização Condicional</h1>
+      <Condicional />
+    </div>
   )
 }
 

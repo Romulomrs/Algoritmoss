@@ -3,4 +3,4 @@ function Button (props){
         <button>{props.text}</button>
     )
 }
-export default button
+export default Button
