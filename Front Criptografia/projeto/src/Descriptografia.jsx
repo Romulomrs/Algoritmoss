@@ -34,15 +34,17 @@ function Descriptografia() {
           style={{
             padding: '10px 20px',
             marginLeft: '42%',
-            backgroundColor: 'red',
-            color: 'white',
+            backgroundColor: 'blue',
             border: 'none',
             borderRadius: '5px 0 0 5px',
             cursor: 'pointer',
             marginTop: '50px',
             width:'10%',
           }}
-        >Criptografia
+        ><Link to="/Criptografia"
+        style={{color: 'white', textDecoration: 'none',
+
+        }} >Criptografia</Link>
 
         </button>
         
@@ -50,17 +52,15 @@ function Descriptografia() {
           onClick={() => handleButtonClick(2)}
           style={{
             padding: '10px 20px',
-            backgroundColor: 'blue',
+            backgroundColor: 'red',
             border: 'none',
+            color: 'white',
             borderRadius: '0 5px 5px 0',
             cursor: 'pointer',
             marginTop: '50px',
             width:'10%'
           }}
-        ><Link to="/Descriptografia"
-        style={{color: 'white', textDecoration: 'none',
-
-        }} >Descriptografia</Link>
+        >Descriptografia
           
         </button>
       </div>
@@ -81,7 +81,7 @@ function Descriptografia() {
             value={input1}
             onChange={(e) => setInput1(e.target.value)}
             placeholder="Insira o primeiro valor"
-            style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%' }}
+            style={{ padding: '10px', width: '200px', margin:'0 10px 0 10%', height:'20px'}}
           />
           <button
             style={{
@@ -91,7 +91,9 @@ function Descriptografia() {
               border: 'none',
               borderRadius: '5px',
               cursor: 'pointer',
-              marginLeft: '50%',
+              margin: '60px 0 0 50%',
+              
+
             }}
           >
             Botão A
@@ -108,28 +110,14 @@ function Descriptografia() {
             value={input2}
             onChange={(e) => setInput2(e.target.value)}
             placeholder="Insira o segundo valor"
-            style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%', marginTop: '5%' }}
+            style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%' }}
           />
-          <button
-            style={{
-              padding: '10px 20px',
-              backgroundColor: 'green',
-              color: 'white',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer',
-              marginLeft: '50%',
-              marginTop: '5%'
-            }}
-          >
-            Botão C
-          </button>
         </div>
 
         {/* Matriz e novo input ao lado */}
 
           <div>
-  <label style={{ marginBottom: '5px', display: 'block', margin:'20px 0 15px 65.8%',width:'15%',marginright:'-500px',borderColor:'ActiveBorder' ,borderStyle: 'solid', borderWidth: '2px' }}>Novo Input:</label>
+  <label style={{ marginBottom: '5px', display: 'block', margin:'20px 0 15px 65.8%',width:'15%',marginLeft:'110px',borderColor:'InactiveBorder' ,borderStyle: 'solid', borderWidth: '2px' }}>Novo Input:</label>
   <input
     type="text"
     placeholder="Novo input"
@@ -138,14 +126,15 @@ function Descriptografia() {
       width: '200px',
       height: '50px',
       margin:'10px 0 15px 65.8%',
-      borderColor:'ActiveBorder' ,borderStyle: 'solid', borderWidth: '2px' 
+      marginLeft:'8%',
+
 
     }}
   />
 </div>
 
           {/* Matriz */}
-          <div style={{ position:'absolute',marginLeft:'7.1%',marginTop:'150px'}}>
+          <div style={{ position:'absolute',marginLeft:'64%',marginTop:'150px'}}>
             {matrix.map((row, rowIndex) => (
               <div key={rowIndex} style={{ display: 'flex' }}>
                 {row.map((cell, cellIndex) => (
@@ -159,7 +148,7 @@ function Descriptografia() {
                       height: '50px',
                       margin: '10px',
                       textAlign:'center',
-position: 'relative'
+
                       
                     }}
                   />
