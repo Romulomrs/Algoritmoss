@@ -5,7 +5,7 @@ function TelaInicial() {
   return (
       <div>
         <nav>
-          <button><Link to="/App">Criptografia</Link></button>
+          <button><Link to="/Criptografia">Criptografia</Link></button>
   
           <button><Link to="/Descriptografia">Descriptografia</Link></button>
         </nav>

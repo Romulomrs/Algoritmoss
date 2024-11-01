@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx';
+import Criptografia from './Criptografia.jsx';
 import Descriptografia from './Descriptografia.jsx';
 import TelaInicial from './TelaInicial.jsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
   element:<TelaInicial/>,
 },
   {
-    path: '/App',
-    element: <App />,
+    path: '/Criptografia',
+    element: <Criptografia />,
   },
   {
     path: '/Descriptografia',
