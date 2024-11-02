@@ -25,7 +25,8 @@ function Descriptografia() {
     <div style={{
       display: 'flex',
       flexDirection: 'column',
-      height: '100%', // Centraliza verticalmente ocupando 100% da altura da viewport
+      height: '100%',
+      backgroundColor: '#f0f8ff' // Centraliza verticalmente ocupando 100% da altura da viewport
     }}>
       {/* Div para os botões no topo da página */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -33,7 +34,7 @@ function Descriptografia() {
           onClick={() => handleButtonClick(1)}
           style={{
             padding: '10px 20px',
-            marginLeft: '42%',
+            marginLeft: '37%',
             backgroundColor: 'blue',
             border: 'none',
             borderRadius: '5px 0 0 5px',
