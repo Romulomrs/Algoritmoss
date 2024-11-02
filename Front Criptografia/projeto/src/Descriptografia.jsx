@@ -80,7 +80,7 @@ function Descriptografia() {
             type="text"
             value={input1}
             onChange={(e) => setInput1(e.target.value)}
-            placeholder="Insira o primeiro valor"
+            placeholder="INPUT 01 - CHAVE IV"
             style={{ padding: '10px', width: '200px', margin:'0 10px 0 10%', height:'20px'}}
           />
           <button
@@ -96,7 +96,7 @@ function Descriptografia() {
 
             }}
           >
-            Botão A
+            DECODIFICAR
           </button>
         </div>
 
@@ -109,7 +109,7 @@ function Descriptografia() {
             type="text"
             value={input2}
             onChange={(e) => setInput2(e.target.value)}
-            placeholder="Insira o segundo valor"
+            placeholder="INPUT 02 - CHAVE SECRETA"
             style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%' }}
           />
         </div>
@@ -117,16 +117,20 @@ function Descriptografia() {
         {/* Matriz e novo input ao lado */}
 
           <div>
-  <label style={{ marginBottom: '5px', display: 'block', margin:'20px 0 15px 65.8%',width:'15%',marginLeft:'110px',borderColor:'InactiveBorder' ,borderStyle: 'solid', borderWidth: '2px' }}>Novo Input:</label>
+  <label style={{ marginBottom: '5px', display: 'block', margin:'20px 0 15px 65%',width:'25%', }}>OUTPUT - MATRIZ DESCRIPTOGRAFADA</label>
+  <label style={{  display: 'block', margin:'-25px 0 0px 8%',width:'35%' }}>INPUT - ÁREA DE INSERIR A MATRIZ CRIPTOGRAFADA</label>
   <input
     type="text"
-    placeholder="Novo input"
+    placeholder="RERE56ER62D8A4ED8A1ED5F"
     style={{
       padding: '10px',
-      width: '200px',
-      height: '50px',
-      margin:'10px 0 15px 65.8%',
-      marginLeft:'8%',
+    width: '350px',
+    height: '50px',
+      margin:'10px 0 15px 8%',
+      borderColor: 'ActiveBorder',
+      borderStyle: 'solid',
+      borderWidth: '1px',
+      whiteSpace: 'nowrap'
 
 
     }}
@@ -134,7 +138,7 @@ function Descriptografia() {
 </div>
 
           {/* Matriz */}
-          <div style={{ position:'absolute',marginLeft:'64%',marginTop:'150px'}}>
+          <div style={{ position:'absolute',marginLeft:'63.5%',marginTop:'200px'}}>
             {matrix.map((row, rowIndex) => (
               <div key={rowIndex} style={{ display: 'flex' }}>
                 {row.map((cell, cellIndex) => (

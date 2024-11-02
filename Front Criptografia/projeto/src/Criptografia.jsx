@@ -80,7 +80,7 @@ function Criptografia() {
             type="text"
             value={input1}
             onChange={(e) => setInput1(e.target.value)}
-            placeholder="Insira o primeiro valor"
+            placeholder="INPUT 01 - CHAVE IV"
             style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%' }}
           />
           <button
@@ -92,9 +92,10 @@ function Criptografia() {
               borderRadius: '5px',
               cursor: 'pointer',
               marginLeft: '50%',
+              width:'13.5%'
             }}
           >
-            Botão A
+            GERAR
           </button>
         </div>
 
@@ -107,7 +108,7 @@ function Criptografia() {
             type="text"
             value={input2}
             onChange={(e) => setInput2(e.target.value)}
-            placeholder="Insira o segundo valor"
+            placeholder="INPUT 02 - CHAVE SECRETA"
             style={{ padding: '10px', width: '200px', marginRight: '10px', marginLeft: '10%', marginTop: '5%' }}
           />
           <button
@@ -122,30 +123,34 @@ function Criptografia() {
               marginTop: '5%'
             }}
           >
-            Botão C
+            CRIPTOGRAFAR
           </button>
         </div>
 
         {/* Matriz e novo input ao lado */}
 
           <div>
-  <label style={{ marginBottom: '5px', display: 'block', margin:'20px 0 15px 65.8%',width:'15%',marginright:'-500px',borderColor:'ActiveBorder' ,borderStyle: 'solid', borderWidth: '2px' }}>Novo Input:</label>
+  <label style={{  display: 'block', margin:'30px 0 15px 65.8%',width:'35%' }}>OUTPUT- MATRIZ EM TEXTO CRIPTOGRAFADO</label>
+  <label style={{  display: 'block', margin:'-25px 0 0px 8%',width:'25%' }}>INPUT - ÁREA DE INSERIR A MATRIZ</label>
   <input
-    type="text"
-    placeholder="Novo input"
-    style={{
-      padding: '10px',
-      width: '200px',
-      height: '50px',
-      margin:'10px 0 15px 65.8%',
-      borderColor:'ActiveBorder' ,borderStyle: 'solid', borderWidth: '2px' 
+  type="text"
+  placeholder="ASNSJDNAJNDA45454AX"
+  style={{
+    padding: '10px',
+    width: '350px',
+    height: '50px',
+    margin: '10px 0 15px 65.8%',
+    borderColor: 'ActiveBorder',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+    whiteSpace: 'nowrap' // impede quebras de linha, mas você pode ajustar o layout
+  }}
+/>
 
-    }}
-  />
 </div>
 
           {/* Matriz */}
-          <div style={{ position:'absolute',marginLeft:'7.1%',marginTop:'150px'}}>
+          <div style={{ position:'absolute',marginLeft:'7.1%',marginTop:'220px'}}>
             {matrix.map((row, rowIndex) => (
               <div key={rowIndex} style={{ display: 'flex' }}>
                 {row.map((cell, cellIndex) => (
