@@ -18,8 +18,6 @@ function Descriptografia() {
     setMatrix(updatedMatrix);
   };
 
-  // Estado para o novo input ao lado da matriz
-  const [sideInput, setSideInput] = useState('');
 
   return (
     <div style={{

@@ -18,14 +18,11 @@ function Criptografia() {
     setMatrix(updatedMatrix);
   };
 
-  // Estado para o novo input ao lado da matriz
-  const [sideInput, setSideInput] = useState('');
 
   return (
     <div style={{
       display: 'flex',
       flexDirection: 'column',
-      height: '100%',
       backgroundColor: '#f0f8ff' // Centraliza verticalmente ocupando 100% da altura da viewport
     }}>
       {/* Div para os botões no topo da página */}
